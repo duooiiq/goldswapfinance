@@ -8,8 +8,9 @@ declare module 'styled-components' {
 }
 
 const GlobalStyle = createGlobalStyle`
+  @import url('https://fonts.googleapis.com/css2?family=Anonymous+Pro:ital@1&display=swap');
   * {
-    font-family: 'Kanit', sans-serif;
+    font-family: 'Anonymous Pro', monospace;
   }
   body {
     background-color: ${({ theme }) => theme.colors.background};
