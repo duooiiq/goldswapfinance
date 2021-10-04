@@ -2,10 +2,10 @@ import { ContextApi } from 'contexts/Localization/types'
 import { PageMeta } from './types'
 
 export const DEFAULT_META: PageMeta = {
-  title: 'PancakeSwap',
+  title: 'GoldSwap',
   description:
-    'The most popular AMM on BSC by user count! Earn CAKE through yield farming or win it in the Lottery, then stake it in Syrup Pools to earn more tokens! Initial Farm Offerings (new token launch model pioneered by PancakeSwap), NFTs, and more, on a platform you can trust.',
-  image: 'https://pancakeswap.finance/images/hero.png',
+    'GoldSwap, Gold In A App',
+  image: 'https://i.ibb.co/ZJLLPd8/1633274756949.png',
 }
 
 export const getCustomMeta = (path: string, t: ContextApi['t']): PageMeta => {
@@ -31,85 +31,85 @@ export const getCustomMeta = (path: string, t: ContextApi['t']): PageMeta => {
   switch (basePath) {
     case '/':
       return {
-        title: `${t('Home')} | ${t('PancakeSwap')}`,
+        title: `${t('Home')} | ${t('GoldSwap')}`,
       }
     case '/swap':
       return {
-        title: `${t('Exchange')} | ${t('PancakeSwap')}`,
+        title: `${t('Exchange')} | ${t('GoldSwap')}`,
       }
     case '/add':
       return {
-        title: `${t('Add Liquidity')} | ${t('PancakeSwap')}`,
+        title: `${t('Add Liquidity')} | ${t('GoldSwap')}`,
       }
     case '/remove':
       return {
-        title: `${t('Remove Liquidity')} | ${t('PancakeSwap')}`,
+        title: `${t('Remove Liquidity')} | ${t('GoldSwap')}`,
       }
     case '/liquidity':
       return {
-        title: `${t('Liquidity')} | ${t('PancakeSwap')}`,
+        title: `${t('Liquidity')} | ${t('GoldSwap')}`,
       }
     case '/find':
       return {
-        title: `${t('Import Pool')} | ${t('PancakeSwap')}`,
+        title: `${t('Import Pool')} | ${t('GoldSwap')}`,
       }
     case '/competition':
       return {
-        title: `${t('Trading Battle')} | ${t('PancakeSwap')}`,
+        title: `${t('Trading Battle')} | ${t('GoldSwap')}`,
       }
     case '/prediction':
       return {
-        title: `${t('Prediction')} | ${t('PancakeSwap')}`,
+        title: `${t('Prediction')} | ${t('GoldSwap')}`,
       }
     case '/prediction/leaderboard':
       return {
-        title: `${t('Leaderboard')} | ${t('PancakeSwap')}`,
+        title: `${t('Leaderboard')} | ${t('GoldSwap')}`,
       }
     case '/farms':
       return {
-        title: `${t('Farms')} | ${t('PancakeSwap')}`,
+        title: `${t('Farms')} | ${t('GoldSwap')}`,
       }
     case '/farms/auction':
       return {
-        title: `${t('Farm Auctions')} | ${t('PancakeSwap')}`,
+        title: `${t('Farm Auctions')} | ${t('GoldSwap')}`,
       }
     case '/pools':
       return {
-        title: `${t('Pools')} | ${t('PancakeSwap')}`,
+        title: `${t('Pools')} | ${t('GoldSwap')}`,
       }
     case '/lottery':
       return {
-        title: `${t('Lottery')} | ${t('PancakeSwap')}`,
+        title: `${t('Lottery')} | ${t('GoldSwap')}`,
       }
     case '/ifo':
       return {
-        title: `${t('Initial Farm Offering')} | ${t('PancakeSwap')}`,
+        title: `${t('Initial Farm Offering')} | ${t('GoldSwap')}`,
       }
     case '/teams':
       return {
-        title: `${t('Leaderboard')} | ${t('PancakeSwap')}`,
+        title: `${t('Leaderboard')} | ${t('GoldSwap')}`,
       }
     case '/voting':
       return {
-        title: `${t('Voting')} | ${t('PancakeSwap')}`,
+        title: `${t('Voting')} | ${t('GoldSwap')}`,
       }
     case '/voting/proposal':
       return {
-        title: `${t('Proposals')} | ${t('PancakeSwap')}`,
+        title: `${t('Proposals')} | ${t('GoldSwap')}`,
       }
     case '/voting/proposal/create':
       return {
-        title: `${t('Make a Proposal')} | ${t('PancakeSwap')}`,
+        title: `${t('Make a Proposal')} | ${t('GoldSwap')}`,
       }
     case '/info':
       return {
-        title: `${t('Overview')} | ${t('PancakeSwap Info & Analytics')}`,
-        description: 'View statistics for Pancakeswap exchanges.',
+        title: `${t('Overview')} | ${t('GoldSwap Info & Analytics')}`,
+        description: 'View statistics for Goldswap exchanges.',
       }
     case '/info/pools':
       return {
-        title: `${t('Pools')} | ${t('PancakeSwap Info & Analytics')}`,
-        description: 'View statistics for Pancakeswap exchanges.',
+        title: `${t('Pools')} | ${t('GoldSwap Info & Analytics')}`,
+        description: 'View statistics for Goldswap exchanges.',
       }
     case '/info/tokens':
       return {
@@ -118,7 +118,7 @@ export const getCustomMeta = (path: string, t: ContextApi['t']): PageMeta => {
       }
     case '/nfts':
       return {
-        title: `${t('Overview')} | ${t('PancakeSwap')}`,
+        title: `${t('Overview')} | ${t('GoldSwap')}`,
       }
     case '/nfts/collections':
       return {
