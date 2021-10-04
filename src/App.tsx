@@ -124,11 +124,6 @@ const App: React.FC = () => {
               <Proposal />
             </Route>
 
-            {/* NFT */}
-            <Route path="/nfts">
-              <NftMarket />
-            </Route>
-
             {/* Info pages */}
             <Route path="/info">
               <Info />
@@ -159,12 +154,6 @@ const App: React.FC = () => {
             </Route>
             <Route path="/syrup">
               <Redirect to="/pools" />
-            </Route>
-            <Route path="/collectibles">
-              <Redirect to="/nfts" />
-            </Route>
-            <Route path="/profile">
-              <Redirect to={`${nftsBaseUrl}/profile/${account?.toLowerCase() || ''}`} />
             </Route>
 
             {/* 404 */}
