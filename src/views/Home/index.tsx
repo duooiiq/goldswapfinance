@@ -49,8 +49,6 @@ const Home: React.FC = () => {
   return (
     <>
       <PageMeta />
-      
-      </PageSection>
     </>
   )
 }
