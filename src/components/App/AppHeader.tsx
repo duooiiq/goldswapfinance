@@ -39,7 +39,6 @@ const AppHeader: React.FC<Props> = ({ title, subtitle, helper, backTo, noConfig 
             </Text>
           </Flex>
         </Flex>
-      </Flex>
       {!noConfig && (
         <Flex alignItems="center">
           <NotificationDot show={expertMode}>
