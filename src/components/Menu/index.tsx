@@ -22,6 +22,9 @@ const Menu = (props) => {
 
   return (
     <UikitMenu
+      links={config(t)}
+      subLinks={activeMenuItem?.hideSubNav ? [] : activeMenuItem?.items}
+      footerLinks={footerLinks(t)}
       userMenu={<UserMenu />}
       globalMenu={<GlobalSettings />}
       currentLang={currentLanguage.code}
