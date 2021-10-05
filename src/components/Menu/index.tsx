@@ -23,7 +23,8 @@ const Menu = (props) => {
   return (
     <UikitMenu
       links={config(t)}
-      userMenu={<UserMenu />}
+      isDark={isDark}
+      toggleTheme={toggleTheme}
       globalMenu={<GlobalSettings />}
       currentLang={currentLanguage.code}
       langs={languageList}
