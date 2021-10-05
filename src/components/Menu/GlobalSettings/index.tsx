@@ -7,6 +7,7 @@ const GlobalSettings = () => {
 
   return (
     <Flex>
+    <p>.</p>
     </Flex>
   )
 }
