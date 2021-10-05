@@ -19,6 +19,9 @@ const GlobalStyle = createGlobalStyle`
       height: auto;
       max-width: 100%;
     }
+   .KBVhn {
+    background-color: #8C0010;
+  }
   }
 `
 
