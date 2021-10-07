@@ -28,6 +28,9 @@ const GlobalStyle = createGlobalStyle`
 .ewoRti {
 display: none;
 }
+.jcNvwq {
+display: none;
+}
   }
 `
 
