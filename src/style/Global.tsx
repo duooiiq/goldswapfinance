@@ -25,6 +25,9 @@ const GlobalStyle = createGlobalStyle`
 .bKajnB {
  display: none;
   }
+.ewoRti {
+display: none;
+}
   }
 `
 
