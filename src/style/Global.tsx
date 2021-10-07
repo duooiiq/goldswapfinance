@@ -22,6 +22,9 @@ const GlobalStyle = createGlobalStyle`
    .KBVhn {
     background-color: #8C0010;
   }
+.bKajnB {
+ display: none;
+  }
   }
 `
 
