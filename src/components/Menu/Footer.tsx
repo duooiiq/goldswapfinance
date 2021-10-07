@@ -38,6 +38,8 @@ const Footer = () => {
   const { t } = useTranslation()
   return (
     <Wrapper>
+     <div>
+     </div>
     </Wrapper>
   )
 }
