@@ -49,6 +49,8 @@ const Home: React.FC = () => {
   return (
     <>
       <PageMeta />
+   <img src="https://i.ibb.co/cJTGPqX/1633656928328.png" />
+    <img src="https://i.ibb.co/xfpJjY2/1633656881236.png" />
     </>
   )
 }
