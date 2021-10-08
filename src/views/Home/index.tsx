@@ -50,7 +50,9 @@ const Home: React.FC = () => {
     <>
       <PageMeta />
    <img src="https://i.ibb.co/cJTGPqX/1633656928328.png" alt="Banner 1" />
+   <div className="divtospace">
     <img src="https://i.ibb.co/xfpJjY2/1633656881236.png" alt="Banner 2" />
+   </div>
     </>
   )
 }
