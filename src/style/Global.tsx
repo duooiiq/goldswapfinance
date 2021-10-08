@@ -31,6 +31,9 @@ display: none;
 .jcNvwq {
 display: none;
 }
+.khoyTI {
+background-image: linear-gradient(45deg, gold, purple, blue, yellow);
+}
   }
 `
 
