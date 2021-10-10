@@ -43,6 +43,9 @@ display: flex;
   align-items: center;
   justify-content: center;
 }
+.cSawQi {
+fill: #d1ef84;
+}
 }
   }
 `
