@@ -42,8 +42,6 @@ vertical-align: top;
 display: flex;
   align-items: center;
   justify-content: center;
-position: fixed;
-top: 0px;
 }
 }
   }
