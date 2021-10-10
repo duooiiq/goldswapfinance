@@ -42,6 +42,7 @@ vertical-align: top;
 display: flex;
   align-items: center;
   justify-content: center;
+position: fixed;
 }
 }
   }
