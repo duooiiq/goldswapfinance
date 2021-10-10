@@ -46,6 +46,9 @@ display: flex;
 .cSawQi {
 fill: #d1ef84;
 }
+.dubkGi {
+fill: #d1ef84;
+}
 }
   }
 `
