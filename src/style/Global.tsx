@@ -10,7 +10,7 @@ declare module 'styled-components' {
 const GlobalStyle = createGlobalStyle`
   @import url('https://fonts.googleapis.com/css2?family=Anonymous+Pro:ital@1&display=swap');
   * {
-    font-family: 'Anonymous Pro', monospace;
+    font-family: 'Oswald', sans-serif;
   }
   body {
     background-color: ${({ theme }) => theme.colors.background};
