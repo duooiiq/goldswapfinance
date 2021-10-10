@@ -37,6 +37,9 @@ background-image: linear-gradient(45deg, gold, purple, blue, yellow);
 . divtospace {
 height: 58px;
 }
+.eOHJkb {
+vertical-align: top;
+}
   }
 `
 
