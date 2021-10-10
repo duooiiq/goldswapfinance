@@ -42,7 +42,8 @@ vertical-align: top;
 display: flex;
   align-items: center;
   justify-content: center;
-position: absolute;
+position: fixed;
+top: 0px;
 }
 }
   }
